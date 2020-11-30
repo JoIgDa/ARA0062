@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../fonts/indie.ttf");
+}
+
+body{
+  background-color: whitesmoke  !important;
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+ }
+
+/* Formatação do Carrossel */
+
+.load{
+  animation: slide 5s;
+}
+.slider {
+  
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  animation: slide 25s infinite;
+}
+
+
+
+@keyframes slide {
+  0%{
+    background-image: url('../img/brasil.jpg')
+  }
+  10% {
+    background-image: url('../img/brasil.jpg');
+  }
+  20%{
+    background-image: url('../img/vasco.jpg')
+  }
+  30%{
+    background-image: url('../img/vasco.jpg')
+  }
+  40% {
+    background-image: url('../img/vasco.jpg');
+  }
+  50%{
+    background-image: url('../img/flamengo.jpg')
+  }
+  60% {
+    background-image: url('../img/flamengo.jpg');
+  }
+  70% {
+    background-image: url('../img/botafogo.jpg');
+  }
+  80% {
+    background-image: url('../img/botafogo.jpg');
+  }
+  90% {
+    background-image: url('../img/fluminense.jpeg');
+  }
+  100% {
+    background-image: url('../img/fluminense.jpeg');
+  }
+ }
+
+
+ 
+
+  /* Formatação do cabeçalho */
+
+header#cabecalho {
+  position: fixed;
+  background-color:black;
+  width: 100%;
+  padding: 45px;
+  top: 0px; 
+  left: 0px;
+  right: 0px;
+  box-shadow: 0 2px 2px 0px;
+  z-index: 2;
+}
+  
+header#cabecalho a {
+    color: white;
+    text-decoration: none;
+      }
+  
+  header#cabecalho h1 {
+    color: white;
+    position: fixed;
+    top: -9px;
+    left: 15px;
+    font-family: 'FonteLogo';
+    font-size: 50px;
+    
+  }
+
+  /* Formatação do Menu */
+
+nav#menu {
+    
+    position: fixed;
+    top: 0px;
+    left: 650px;
+       }
+  
+  nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 0px;
+    }
+  
+  nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 23px;
+    transition: background-color 0.5s;
+    font-size: 18px;
+   }
+  
+  nav#menu li:hover {
+    background-color:rgba(200,200,200,1)
+  }
+    
+  nav#menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav#menu a:hover {
+    color: white;
+  }
+
+   /* Formatação do Rodapé */
+
+footer#rodape {
+  clear: both;
+  border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+  text-align: center;
+  text-decoration: none;
+}

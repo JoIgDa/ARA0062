@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'FonteLogo';
+  src: url("../fonts/indie.ttf");
+}
+
+body{
+  font-family: 'Audiowide', cursive;    
+  background-color: #F1F2F2 !important;
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  
+ }
+
+ /* Formatação dos Cards */
+ 
+.main-row{
+   
+  margin-top: 10px;
+  
+}
+
+.card img{
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.card .card-body{
+  visibility: visible;
+  height: 250px;
+ 
+}
+
+.card:hover .card-body {
+  visibility: visible;
+  transform: translateY(-50px);
+  
+  height: 200px;
+  margin-top: 45px;
+}
+
+hgroup#cards a{
+
+  margin-top: 10px;
+}
+
+/* Formatação do cabeçalho */
+
+header#cabecalho {
+  position: fixed;
+  background-color:black;
+  width: 100%;
+  padding: 45px;
+  top: 0px; 
+  left: 0px;
+  right: 0px;
+  box-shadow: 0 2px 2px 0px;
+  z-index: 2;
+}
+  
+header#cabecalho a {
+    color: white;
+    text-decoration: none;
+}
+  
+header#cabecalho h1 {
+        color: white;
+        position: fixed;
+        top: -9px;
+        left: 15px;
+        font-family: 'Audiowide', cursive;
+        font-size: 50px;    
+}
+      
+header#cabecalho ul {
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    left: 1150px;
+}
+
+header#cabecalho li {
+  
+    display: inline-block;
+    padding: 5px;
+    margin: 23px;
+    transition: background-color 0.5s;
+    font-size: 20px;
+}
+
+header#cabecalho ul#carrinho {
+  top: 17px;
+  left: 1120px; 
+  transition: background-color 0.5s;
+  padding: 3px;
+}
+
+header#cabecalho ul#carrinho:hover{
+  background-color:rgba(200,200,200,1)
+
+}
+
+header#cabecalho li:hover {
+    background-color:rgba(200,200,200,1)
+}
+
+
+
+
+/* Formatação do Menu */
+
+  nav#menu h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 120px;
+    text-shadow: 1px 1px 1px rgba(9,8,5,.9);
+    color: #212121;
+    text-align: center;
+  }
+
+   nav#menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav#menu a:hover {
+    color: white;
+  }
+
+   /* Formatação do Rodapé */
+
+footer#rodape {
+  clear: both;
+  border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+  text-align: center;
+  text-decoration: none;
+}
+
+
+  
